@@ -1,0 +1,128 @@
+.header a{
+    margin-left: 60px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 15px 30px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.navbar a{
+    color: blue;
+    font-size: 1.40rem;
+    text-align: right;
+    margin-left: 100px;
+}
+.contentPage{
+    display: flex;
+    height: 515px;
+    width: 1310px;
+    background: radial-gradient(circle at 10% 20%, rgb(255, 200, 124) 0%, rgb(252, 251, 121) 90%);
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+.contentPage a{
+    color: #5E5694;
+    font-family: Arial, sans-serif;
+    margin: 0;
+
+}
+.contentPage p{
+}
+.navbar a:hover{
+ color: #FF7A00;
+}
+#logo{
+    margin-left: 480px;
+    margin-top: 40px;
+    width: 400px;
+    height: 400px;
+    border-radius: 20px;
+}
+.texts{
+    font-size: 38px;
+}
+#marquez{
+    margin-top: -20px;
+    font-size: 70px;
+    margin-bottom: -20px;
+    color: rgb(204, 136, 27);
+}
+#website{
+    margin-top: -20px;
+    font-size: 70px;
+    margin-bottom: -20px;
+    color: rgb(204, 136, 27);
+}
+.parentAbout{
+    display: flex;
+    height: 515px;
+    width: 1310px;
+    background: radial-gradient(circle at 10% 20%, rgb(255, 200, 124) 0%, rgb(252, 251, 121) 90%);
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+.parentAbout p{
+    font-size: 18px;
+    margin-left: 100px;
+    color:rgba(204,136,27,255);
+    font-family: sans-serif;
+}
+.aboutContent{
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+.slider-container {
+    margin-top: 60px;
+    margin-left: 100px;
+    position: relative;
+    max-width: 300px;
+    max-height: 450px;
+    overflow: hidden;
+    border: 2px solid #333;
+    border-radius: 8px;
+}
+
+.slider img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.buttons {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(-50%);
+}
+
+button {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 18px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: rgba(255, 255, 255, 1);
+}
+#firstText{
+    margin-top: 120px;
+}

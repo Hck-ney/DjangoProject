@@ -1,0 +1,26 @@
+{% extends 'app/base.html'%}
+{%load static%}
+{% block content %}
+<div class = "parentAbout">
+    <div class="aboutContent">
+        <div class="slider-container">
+            <div class="slider">
+            <img id="slide" src="image1.jpg" alt="Image Slider" />
+            </div>
+                <div class="buttons">
+            <button onclick="prevSlide()">❮</button>
+            <button onclick="nextSlide()">❯</button>
+                </div>
+         </div>
+    </div>
+    <div class="AboutText">
+        <p id="firstText">Hi there! I’m Ian Marquez, an undergraduate student</p>
+    <p>studying IT at CVSU Bacoor. I have a strong passion for web development</p>
+        <p>and enjoy building user-friendly websites.</p>
+        <p>I’ve gained skills in HTML, CSS, JavaScript, Java and Python.</p>
+    <p>In my free time, I enjoy exploring new technologies and ideas.</p>
+
+    </div>
+</div>
+<script src="{% static 'js/javs.js'%}"></script>
+{% endblock content %}

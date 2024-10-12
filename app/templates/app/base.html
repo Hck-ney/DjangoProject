@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>anak ka ng</title>
+    <link rel="icon" href="{% static  'img/iancon1.ico' %}">
+    <link rel="stylesheet" href="{% static 'css/css.css' %}">
+
+</head>
+<body>
+<div class="navbar">
+    <header class = "header">
+
+     <a href="{% url 'index' %}">Home</a>
+     <a href="{% url 'about' %}">About Me</a>
+</header>
+</div>
+
+    {% block content %}
+
+    {% endblock %}
+
+
+{% block body %}
+
+{% endblock  %}
+</body>
+</html>
